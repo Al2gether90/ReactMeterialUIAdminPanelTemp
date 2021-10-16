@@ -1,0 +1,31 @@
+.orders-table {
+  padding: 15px;
+
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+
+    .search-input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #414A69;
+      border-radius: 5px;
+      padding: 5px;
+
+      input {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  .table-cell {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
